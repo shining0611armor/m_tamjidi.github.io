@@ -2,11 +2,12 @@ import { Card, CardContent } from '@shadcn/ui/card';
 import { motion } from 'framer-motion';
 
 const items = [
-  'Lead developer of Surgicise, AI-powered surgical video analysis suite.',
-  'Published in IEEE Transactions on Medical Imaging.',
-  'Presented at Farabi Annual Ophthalmology Congress.',
-  'Head of ARAS AI & Robotics Lab at KNTU.'
+  'Computer Vision and AI Researcher',
+  'Mentor in Machine Learning and Deep Learning',
+  'Researcher in 3D Vision and Test-Time Domain Adaptation',
+  'Contributor to Vision-Language and Generative AI Models'
 ];
+
 
 export default function Highlights() {
   return (
