@@ -8,7 +8,11 @@ AOS.init({
 
 // Typed.js for hero tagline
 var typed = new Typed('#typed', {
-  strings: ['AI Engineer', 'Computer Vision Specialist', 'Software Architect'],
+  strings: [
+    'Computer Vision Researcher',
+    'Machine Learning Engineer',
+    'Digital Electronics Engineer'
+  ],
   typeSpeed: 60,
   backSpeed: 30,
   loop: true
