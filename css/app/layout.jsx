@@ -2,8 +2,8 @@ import '../styles/globals.css';
 import { AnimatePresence } from 'framer-motion';
 
 export const metadata = {
-  title: 'Nima Ahmadi - Portfolio',
-  description: 'CTO at MediversAI | AI & Robotics Engineer'
+  title: 'Mehran Tamjidi - Portfolio',
+  description: 'Computer Vision Researcher | Machine Learning & Deep Learning Researcher'
 };
 
 export default function RootLayout({ children }) {
