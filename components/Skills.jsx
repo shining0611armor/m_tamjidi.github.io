@@ -2,8 +2,14 @@ import { motion } from 'framer-motion';
 import { Card, CardContent } from '@shadcn/ui/card';
 
 const skills = [
-  'Python', 'PyTorch', 'TensorFlow', 'OpenCV',
-  'Next.js', 'React', 'TailwindCSS', 'Framer Motion'
+  "Python",
+  "PyTorch",
+  "TensorFlow",
+  "Keras",
+  "OpenCV",
+  "MATLAB",
+  "Android (Java, Kotlin)",
+  "VHDL",
 ];
 
 export default function Skills() {
