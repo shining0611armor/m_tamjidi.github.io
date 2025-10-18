@@ -10,7 +10,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Nima Ahmadi
+        Mehran Tamjidi
       </motion.h1>
       <motion.p
         className="text-xl md:text-2xl max-w-2xl"
@@ -18,8 +18,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        CTO at MediversAI, AI & Robotics Engineer specializing in surgical video analysis,
-        computer vision, and medical imaging solutions.
+      Computer Vision Researcher | Machine Learning & Deep Learning Engineer | Large Vision-Language Models | 3D Computer Vision
       </motion.p>
       <motion.div
         className="flex space-x-6 pt-4"
@@ -27,9 +26,9 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8 }}
       >
-        <a href="https://linkedin.com/in/mjahmadee"><Linkedin size={32} /></a>
-        <a href="https://github.com/mjahmadee"><GitHub size={32} /></a>
-        <a href="mailto:nima@example.com"><Mail size={32} /></a>
+        <a href="https://www.linkedin.com/in/mehran-tamjidi-34293b229/"><Linkedin size={32} /></a>
+        <a href="https://github.com/shining0611armor"><GitHub size={32} /></a>
+        <a href="mailto:mehrant.0611@gmail.com"><Mail size={32} /></a>
       </motion.div>
     </section>
   );
