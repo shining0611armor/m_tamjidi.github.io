@@ -3,7 +3,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
   AOS.init({ once:true, duration:800, offset:80 });
   if(document.getElementById('typed')){
     new Typed('#typed',{
-      strings:['AI Engineer','Computer Vision Specialist','PhD Researcher','Software Architect'],
+strings: [
+  "ML/DL Researcher",
+  "Computer Vision Researcher",
+  "Digital Electronics Engineering",
+],
       typeSpeed:60,
       backSpeed:30,
       backDelay:1500,
