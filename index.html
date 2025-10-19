@@ -57,30 +57,56 @@
     </nav>
   </header>
 
-  <!-- Hero -->
-  <section
-    id="home"
-    class="relative hero min-h-screen flex items-center justify-center text-center clip-path-bottom bg-cover bg-center"
-    style="background-image:url('https://shining0611armor.github.io/Images/main.jpg')"
-  >
-    <div class="relative z-10 px-6 max-w-3xl text-white" data-aos="fade-up">
-      <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Mehran Tamjidi</h1>
-      <p class="text-lg md:text-2xl mb-6">
-        <span id="typed" class="text-cyan-300"></span>
-      </p>
-      <div class="flex flex-col md:flex-row gap-4 justify-center">
-        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full shadow-lg transition"
-          >Let’s Connect</a
-        >
-        <a
-          href="https://drive.google.com/file/d/126dKtvHbFaRjNRLI02DaYx-IafkCrb0_/view?usp=drive_link"
-          download
-          class="bg-white/20 hover:bg-white/30 px-8 py-3 rounded-full border border-white shadow-lg backdrop-blur transition"
-          >Download CV</a
-        >
-      </div>
+
+
+ <!-- Hero Section -->
+<section
+  id="home"
+  class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-center overflow-hidden"
+>
+  <!-- Background overlay (optional animated gradient or image) -->
+  <div
+    class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80')] bg-cover bg-center opacity-20"
+  ></div>
+
+  <!-- Hero Content -->
+  <div class="relative z-10 px-6 max-w-3xl text-white" data-aos="fade-up">
+    
+    <!-- Profile Image -->
+    <img 
+      src="https://raw.githubusercontent.com/shining0611armor/shining0611armor.github.io/main/Images/profile.jpg"
+      alt="Mehran Tamjidi"
+      class="w-32 h-32 md:w-48 md:h-48 rounded-full mx-auto mb-6 border-4 border-white shadow-lg object-cover"
+      loading="lazy"
+    />
+
+    <!-- Name -->
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Mehran Tamjidi</h1>
+
+    <!-- Subtitle / Typed.js dynamic text -->
+    <p class="text-lg md:text-2xl mb-6">
+      <span id="typed" class="text-cyan-300"></span>
+    </p>
+
+    <!-- Buttons -->
+    <div class="flex flex-col md:flex-row gap-4 justify-center">
+      <a 
+        href="#contact"
+        class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full shadow-lg transition"
+      >
+        Let’s Connect
+      </a>
+      <a 
+        href="https://drive.google.com/file/d/126dKtvHbFaRjNRLI02DaYx-IafkCrb0_/view?usp=drive_link"
+        download
+        class="bg-white/20 hover:bg-white/30 px-8 py-3 rounded-full border border-white shadow-lg backdrop-blur transition"
+      >
+        Download CV
+      </a>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- About Me -->
   <section id="about" class="py-20">
