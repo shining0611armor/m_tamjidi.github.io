@@ -61,15 +61,18 @@
 <!-- Hero -->
 <section
   id="home"
-  class="relative hero min-h-screen flex items-center justify-center text-center bg-cover bg-center overflow-hidden"
-  style="
-    background-image: url('https://shining0611armor.github.io/Images/main.jpg');
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-  "
+  class="relative hero min-h-screen flex items-center justify-center text-center overflow-hidden"
+  style="clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);"
 >
-  <!-- Dark overlay for readability -->
-  <div class="absolute inset-0 bg-black/40"></div>
+  <!-- Background overlay image -->
+  <div
+    class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80')] bg-cover bg-center opacity-20"
+  ></div>
 
+  <!-- Dark gradient overlay for better text contrast -->
+  <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+
+  <!-- Hero Content -->
   <div class="relative z-10 px-6 max-w-3xl text-white" data-aos="fade-up">
     <!-- Profile Image -->
     <img 
@@ -82,7 +85,7 @@
     <!-- Name -->
     <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Mehran Tamjidi</h1>
 
-    <!-- Typed.js subtitle -->
+    <!-- Subtitle (Typed.js dynamic text) -->
     <p class="text-lg md:text-2xl mb-6">
       <span id="typed" class="text-cyan-300"></span>
     </p>
@@ -92,14 +95,16 @@
       <a
         href="#contact"
         class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full shadow-lg transition"
-        >Let’s Connect</a
       >
+        Let’s Connect
+      </a>
       <a
         href="https://drive.google.com/file/d/126dKtvHbFaRjNRLI02DaYx-IafkCrb0_/view?usp=drive_link"
         download
         class="bg-white/20 hover:bg-white/30 px-8 py-3 rounded-full border border-white shadow-lg backdrop-blur transition"
-        >Download CV</a
       >
+        Download CV
+      </a>
     </div>
   </div>
 </section>
