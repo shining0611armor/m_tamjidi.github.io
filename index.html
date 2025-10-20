@@ -124,20 +124,18 @@ I actively collaborate with international scholars on projects targeting top com
 
 
 
-
-
-
-<!-- Publications Section -->
+<!-- Publications -->
 <section id="publications" class="py-20 bg-white">
   <div class="max-w-screen-lg mx-auto px-6" data-aos="fade-up">
-    <h2 class="text-4xl font-bold mb-8 text-center uppercase tracking-wide">📑 Publications</h2>
+    <h2 class="text-4xl font-bold mb-8 text-center uppercase tracking-wide text-gray-800">
+      📑 Publications
+    </h2>
 
     <!-- Filter & Search -->
-    <div class="flex justify-center items-center gap-4 mb-8">
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
       <button
-        id="filter-all"
         data-count="all"
-        class="btn-count bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-medium transition"
+        class="btn-count bg-blue-600 hover:bg-blue-700 text-white font-medium px-5 py-2 rounded-full shadow transition"
       >
         All
       </button>
@@ -145,9 +143,89 @@ I actively collaborate with international scholars on projects targeting top com
         id="pub-search"
         type="search"
         placeholder="🔍 Search publications..."
-        class="border border-gray-300 rounded-full px-4 py-2 w-1/3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="border border-gray-300 rounded-full px-5 py-2 w-full sm:w-1/3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
       />
     </div>
+
+    <!-- Publications Table -->
+    <div class="overflow-x-auto shadow-xl rounded-2xl bg-white border border-gray-100">
+      <table id="pub-table" class="min-w-full divide-y divide-gray-200">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700 uppercase">Status</th>
+            <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700 uppercase">Title</th>
+            <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700 uppercase">Details</th>
+            <th class="px-6 py-3 text-center text-sm font-semibold text-gray-700 uppercase">Preview</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          <!-- Publication 1 -->
+          <tr class="hover:bg-gray-50 transition">
+            <td class="px-6 py-4 text-sm text-gray-600">Under Review (AAAI 2026)</td>
+            <td class="px-6 py-4 font-medium text-gray-800">
+              Test-Time Domain Adaptation for 3D Vision-Language Foundation Models (3D VLFMs)
+            </td>
+            <td class="px-6 py-4 text-sm text-gray-600">
+              First author, Phase 1 accepted | 4 reviewers gave a score of 6 in Phase 2 | Currently in rebuttal
+              <br />
+              <a
+                href="https://github.com/shining0611armor/shining0611armor.github.io/blob/main/Images/TTH.PNG"
+                target="_blank"
+                class="text-blue-600 hover:underline font-medium"
+              >
+                View Full Image
+              </a>
+            </td>
+            <td class="px-6 py-4 text-center">
+              <a
+                href="https://github.com/shining0611armor/shining0611armor.github.io/blob/main/Images/TTH.PNG"
+                target="_blank"
+              >
+                <img
+                  src="https://github.com/shining0611armor/shining0611armor.github.io/raw/main/Images/TTH.PNG"
+                  alt="Publication Preview"
+                  class="w-20 h-20 object-cover rounded-lg shadow-sm hover:scale-105 transition-transform duration-200"
+                />
+              </a>
+            </td>
+          </tr>
+
+          <!-- Publication 2 -->
+          <tr class="hover:bg-gray-50 transition">
+            <td class="px-6 py-4 text-sm text-gray-600">Under Review (WACV 2026)</td>
+            <td class="px-6 py-4 font-medium text-gray-800">
+              Object Hallucination Mitigation in Large Vision-Language Models
+            </td>
+            <td class="px-6 py-4 text-sm text-gray-600">
+              First author, in final decision phase
+              <br />
+              <a
+                href="https://github.com/shining0611armor/shining0611armor.github.io/blob/main/Images/Uni-adapter.PNG"
+                target="_blank"
+                class="text-blue-600 hover:underline font-medium"
+              >
+                View Full Image
+              </a>
+            </td>
+            <td class="px-6 py-4 text-center">
+              <a
+                href="https://github.com/shining0611armor/shining0611armor.github.io/blob/main/Images/Uni-adapter.PNG"
+                target="_blank"
+              >
+                <img
+                  src="https://github.com/shining0611armor/shining0611armor.github.io/raw/main/Images/Uni-adapter.PNG"
+                  alt="Publication Preview"
+                  class="w-20 h-20 object-cover rounded-lg shadow-sm hover:scale-105 transition-transform duration-200"
+                />
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
 
     <!-- Publications Table -->
     <div class="overflow-x-auto shadow-lg rounded-lg bg-white">
